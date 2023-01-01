@@ -17,7 +17,7 @@ shortener = AbreAi()
 
 url_info = shortener.shorten(
     url="https://google.com", # Your url
-    alias="goggle84778448679dasdadsdasdasdasdsadasdasafs" # Alias of the url
+    alias="url-alias" # Alias of the url
 )
 shortened_url = url_info.get_shortened_url()
 
